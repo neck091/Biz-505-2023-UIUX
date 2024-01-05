@@ -20,7 +20,7 @@ main_nav.addEventListener("click", (event) => {
     if (nav_text === "HOME") {
       document.location.href = "./index.html";
     } else if (nav_text === "로그인") {
-      document.location.href = "./login.html";
+      improtHTML(image, "./login.html");
     } else if (nav_text === "회원가입") {
       document.location.href = "./join.html";
     }

@@ -22,7 +22,7 @@ main_nav.addEventListener("click", (event) => {
     } else if (nav_text === "로그인") {
       improtHTML(image, "./login.html");
     } else if (nav_text === "회원가입") {
-      document.location.href = "./join.html";
+      improtHTML(image, "./join.html");
     }
   }
   // alert("main nav 클릭" + nav_text);

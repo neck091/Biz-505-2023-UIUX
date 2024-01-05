@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 5rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(10, 0, 62);
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+main aside {
+  background-color: aqua;
+
+  flex: 1;
+  padding-bottom: 10px;
+
+  display: flex;
+
+  justify-content: center;
+
+  border: 1px solid blue;
+}
+
+main aside ul {
+  list-style-type: none;
+  width: 80%;
+  margin: 0px 16px;
+}
+
+main aside li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.7s;
+  margin-top: 10px;
+  text-align: right;
+}
+
+main aside li:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+main section {
+  flex: 4;
+  border: 6px solid green;
+  justify-content: center;
+}
+
+main section article {
+  height: 705px;
+  justify-content: center;
+  display: flex;
+  border: 6px solid salmon;
+}
+
+main article div {
+  height: 700px;
+  flex: 1;
+  border: 5px solid red;
+}
+
+article div div {
+  height: 350px;
+}

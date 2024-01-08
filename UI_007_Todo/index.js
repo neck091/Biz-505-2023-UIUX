@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (target.className === "close") {
         //삭제할지 물어보기
         if (confirm("삭제할까요?")) {
-          //삭제를 허락하면 현재 스팬의 부모인 리스트를 감추기
+          //삭제를 허락하면 현재 스팬의 부모인
           target.closest("LI").style.display = " none";
         }
         return false;
